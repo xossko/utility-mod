@@ -1,0 +1,32 @@
+# Gradle
+.gradle
+build/
+out/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.classpath
+.project
+.settings/
+bin/
+
+# macOS
+.DS_Store
+
+# Run files
+run/
+
+# Minecraft
+versions/
+laucher_profiles.json
+
+# Misc
+*.log
+*.swp
+*.swo
+*~
+.env
