@@ -1,0 +1,27 @@
+modLoader="javafxmod"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="utilitymod"
+version="${file.jarVersion}"
+displayName="Utility Mod"
+displayURL="https://github.com/xossko/utility-mod"
+logoFile=""
+credits="Created by xossko"
+authors="xossko"
+description="""Modifies the Strength potion effect to give 30% damage increase per level instead of the default +3 damage."""
+
+[[dependencies.utilitymod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.utilitymod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
